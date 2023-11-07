@@ -1,9 +1,9 @@
-import "./index.scss";
 import Nerve from "../../assets/image/than-kinh.jpeg";
 import Ear from "../../assets/image/ear-nose.jpeg";
 import Spine from "../../assets/image/co-xuong-khop.jpeg";
 import Heart from "../../assets/image/tim-mach.jpeg";
 import Medicine from "../../assets/image/co-xuong-khop.jpeg";
+import SlideBody from "../slide-body";
 
 const Specialization = () => {
   const data = [
@@ -38,20 +38,7 @@ const Specialization = () => {
       image: Nerve
     }
   ];
-  console.log("dfdsfs")
 
-  return (
-    <div className="content-specialization">
-      <div className="title-spec">{"Chuyên khoa phổ biến"}</div>
-      <div className="image">
-        {data.map((item) => (
-          <a className="box-item">
-            <img src={item.image}/>
-            <div>{item.title}</div>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
+  return <SlideBody title={"Chuyên khoa phổ biến"} data={data} color={"#f5f5f5"} />
 };
 export default Specialization;

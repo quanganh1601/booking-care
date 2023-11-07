@@ -1,0 +1,54 @@
+.content-slile-default {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  margin: auto;
+
+  .content {
+    width: 1170px;
+    padding: 30px 20px;
+  }
+
+  .show-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 0px 5px 0px
+  }
+
+  .box-item {
+    padding: 5px 0px;
+    width: 256px !important;
+    position: relative;
+
+    .icon-call-vedeo {
+      height: 21px;
+      position: relative;
+      width: 21px;
+      background-color: #388E3C;
+      border-radius: 50%;
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .anticon-video-camera {
+        color: #FFF;
+        font-size: .7rem;
+      }
+    }
+
+    > img {
+      width: 256px;
+      height: 156px;
+    }
+
+    .text {
+      padding: 5px 0px;
+    }
+  }
+}

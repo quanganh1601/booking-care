@@ -1,5 +1,4 @@
 .content-slide {
-  height: 500px;
   width: 1170px;
   display: flex !important;
   align-items: center;
@@ -10,7 +9,7 @@
 
   .box-item {
     width: 247px !important;
-    height: 386px;
+    height: 300px;
     position: relative;
     
     >img {
@@ -55,6 +54,7 @@
       left: 0px;
       font-size: 0.8rem;
       font-weight: bold;
+      height: 21px;
     }
   }
 }
