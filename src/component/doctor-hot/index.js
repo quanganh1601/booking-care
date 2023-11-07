@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import "./index.scss";
 import { Buffer } from 'buffer';
 
+console.log("log")
+
 const DoctorHot = (props) => {
   const { getUsers, accessToken, doctors } = props;
   useEffect(() => {
